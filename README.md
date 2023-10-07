@@ -10,7 +10,7 @@ One important advantage of the ridge regression, is that it still performs well,
 As in ridge regression, selecting a good value of λ for the lasso is critical.
 5) Elstic Net Regression: Elastic Net produces a regression model that is penalized with both the L1-norm and L2-norm. The consequence of this is to effectively shrink coefficients (like in ridge regression) and to set some coefficients to zero (as in LASSO). Therefore, Elastic Net is a combination of both Lasso and Ridge regression. Confusingly, the alpha hyperparameter can be set via the “l1_ratio” argument that controls the contribution of the L1 and L2 penalties and the lambda hyperparameter can be set via the “alpha” argument that controls the contribution of the sum of both penalties to the loss function. 
 
-All regression models assume that independent variables are not correlated that means that a variation in one independent variable does not affect the other independent variables values
+All regression models assume that independent variables are not correlated that means that a variation in one independent variable does not affect the other independent variables values.
 However, it is preferable for regression models that independent variables and the target, dependent variable (the one to make predictions), have high correlation.
 
 
